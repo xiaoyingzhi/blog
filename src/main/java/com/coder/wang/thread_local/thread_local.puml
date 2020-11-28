@@ -1,0 +1,23 @@
+@startuml
+
+class Thread{
+ThreadLocalMap threadLocals
+}
+
+class ThreadLocal{
+
+}
+
+class ThreadLocalMap{
+Entry[] table
+}
+
+class Entry{
+
+}
+
+class WeakReference<T>{
+
+}
+
+@enduml
