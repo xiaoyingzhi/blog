@@ -1,10 +1,9 @@
-package com.coder.wang.h2;
+package com.h2;
 
 /**
  * @author wangheng
  * @date 2020-12-08
  **/
-//statement.executeUpdate("INSERT INTO USER_INF (`name`,`sex`) VALUES('jack', 'man') ");
 
 import java.sql.*;
 

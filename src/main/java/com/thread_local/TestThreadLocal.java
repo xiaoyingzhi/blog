@@ -1,4 +1,4 @@
-package com.coder.wang.thread_local;
+package com.thread_local;
 
 /**
  * @author wangheng
