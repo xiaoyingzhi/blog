@@ -1,0 +1,25 @@
+@startuml
+
+class Klass
+
+class instanceKlass
+class arrayKlass
+
+class instanceMirrorKlass
+class instanceClassLoaderKlass
+class instanceRefKlass
+
+class objArrayKlass
+class typeArrayKlass
+
+Klass <|-- instanceKlass
+Klass <|-- arrayKlass
+
+instanceKlass <|-- instanceMirrorKlass
+instanceKlass <|-- instanceClassLoaderKlass
+instanceKlass <|-- instanceRefKlass
+
+arrayKlass <|-- objArrayKlass
+arrayKlass <|-- typeArrayKlass
+
+@enduml

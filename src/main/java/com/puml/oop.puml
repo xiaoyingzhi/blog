@@ -1,0 +1,17 @@
+@startuml
+
+class oopDesc
+
+class instanceOopDesc
+class arrayOopDesc
+
+class objArrayOopDesc
+class typeArrayOopDesc
+
+oopDesc <|-- instanceOopDesc
+oopDesc <|-- arrayOopDesc
+
+arrayOopDesc <|-- objArrayOopDesc
+arrayOopDesc <|-- typeArrayOopDesc
+
+@enduml

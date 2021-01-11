@@ -1,7 +1,7 @@
 package com.final_static;
 
 /**
- * @author wangheng
+ * @author CoderW
  * @date 2020-12-18
  **/
 public class Main5 {
